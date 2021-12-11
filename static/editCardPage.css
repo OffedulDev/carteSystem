@@ -1,0 +1,83 @@
+        @import 
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+.txt {
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        color: #a8a432;
+        background: #636363;
+        border-radius: 0 15px 15px 0;
+        transition: .4s;
+        }
+
+.txt:hover {
+    background: #ECECEC;
+    }
+
+button {
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 0.25em 0.5em;
+        text-align: center;
+        text-decoration: none;
+        color: #a8a432;
+        background: #ECECEC;
+        border-radius: 0 15px 15px 0;
+        transition: .4s;
+        }
+
+button:hover {
+    background: #636363;
+    }
+
+h4 {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        background: #ECECEC;
+        color: #a8a432;
+        border-radius: 0 15px 15px 0;
+        transition: .4s;
+        }
+
+h4:hover {
+    background: #636363;
+    }
+
+input {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        background: #ECECEC;
+        color: #a8a432;
+        border-radius: 0 15px 15px 0;
+        transition: .4s;
+        }
+
+input:hover {
+    background: #636363;
+    }
+
+p {
+    font-weight: bold;
+    font-family: Poppins;
+    color: #5332a6;
+    border-width: 12px;
+    font-size: 32px;
+}

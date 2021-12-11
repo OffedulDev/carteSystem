@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="{{url_for('static', filename='editCardPage.css')}}">
+		<title>Sistema >> Inizio >> Crea Carta</title>
+	</head>
+
+	<body style="background-color: #c6c2cf;">
+		<div>
+			<form method="POST">
+				<p align="center">Crea una Nuova Tessera</p>
+                
+                <h4>Nome: </h4><br><input name="nm">
+                <br><h4>Cognome: </h4><br></h4><input name="cm">
+                <br><h4>Abbonamento: </h4><br><input name="pl">
+                <br><h4>Prepagato Virtuale: </h4><br><input name="ch">
+                <br><br><br>
+				<br><input type="submit">
+				
+			</form>
+
+            <br><button class="searchCard" name="searchBtn" onclick="window.location.replace('/')"> Cerca una Tessera </button>
+		</div>
+
+		
+	</body>
+</html>

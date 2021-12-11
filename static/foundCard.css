@@ -1,0 +1,25 @@
+ @import 
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+h4 {
+        display: inline-block;
+        text-align: center;
+        font-weight: bold;
+        font-family: Poppins;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        background: #ECECEC;
+        color: #a8a432;
+        border-radius: 0 15px 15px 0;
+        transition: .4s;
+        }
+
+
+p {
+    font-weight: bold;
+    font-family: Poppins;
+    color: #5332a6;
+    border-width: 12px;
+    font-size: 32px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{{url_for('static', filename='admin.css')}}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema >> Inizio</title>
+    </head>
+
+    <body style="background-color: #c6c2cf;">
+        <div>
+            <p align="center">File Ufficiale di Raccolta</p>
+            <form method="POST">
+                Password: <input class="txt" name="text" type="password">
+                <input class="searchButton" type="submit">
+            </form>
+            
+            <br><br><br>
+            
+            <button class="cercaTessera" name="cercaTessera" onclick="window.location.replace('/')"> Cerca una Tessera </button>
+
+            <button class="creaUnaTessera" name="creaBtn" onclick="window.location.replace(window.location + 'newCard')"> Crea una Tessera </button>
+
+            <button class="editCardButtonRed" name="editCardButton" onclick="window.location.replace(window.location + 'editCard')"> Modifica una Tessera </button>
+            
+        </div>
+
+        
+    </body>
+</html>

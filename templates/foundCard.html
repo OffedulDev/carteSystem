@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="{{url_for('static', filename='foundCard.css')}}">
+		<title>Sistema >> Inizio >> Ricerca Card</title>
+	</head>
+     
+	<body style="background-color: #c6c2cf;">
+		<div>
+			<p align="center">Card Number {{cn}}</p>
+			<h4 align="center">Nome: {{nome}}</h4><br>
+			<h4 align="center">Cognome: {{cnome}}</h4><br>
+			<h4 align="center">Abbonamento: {{abb}}</h4><br>
+			<h4 align="center">Prepagato Virtuale: {{amm}}</h4><br>
+            
+  			<br><br><img src="{{cardbarcode}}" alt="Barcode Image">
+
+			<br><button class="goBack" name="goBackBtn" onclick="window.location.replace('/')"> Torna Indietro </button>
+		</div>
+
+		
+	</body>
+</html>

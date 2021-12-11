@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema >> Inizio</title>
+    </head>
+
+    <body style="background-color: #c6c2cf;">
+        <div>
+            <p align="center">Esegui una Ricerca</p>
+            <form method="POST">
+                <input class="txt" name="text">
+                <input class="searchButton" type="submit">
+            </form>
+            
+            <br><br><br>
+            
+           
+            <button class="creaUnaTessera" name="creaBtn" onclick="window.location.replace(window.location + 'newCard')"> Crea una Tessera </button>
+
+            <button class="adminBtn" name="adminBtn" onclick="window.location.replace(window.location + 'adminPanel')"> Pannello Amministratore </button>
+
+            <button class="editCardButtonRed" name="editCardButton" onclick="window.location.replace(window.location + 'editCard')"> Modifica una Tessera </button>
+            
+        </div>
+
+        
+    </body>
+</html>

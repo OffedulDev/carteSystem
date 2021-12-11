@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="{{url_for('static', filename='cardNotFound.css')}}">
+		<title>Sistema >> Inizio >> Ricerca Card</title>
+	</head>
+
+	<body style="background-color: #c6c2cf;">
+		<div>
+			<h3>Whoops, there was an error while retriving data!</h3>
+			<h5>This could either be a script error or the card may not exist!</h5>
+
+			<h5>You searched for card number: {{cn}}</h5>
+
+			<br><button class="goBack" name="goBackBtn" onclick="window.location.replace('/')"> Torna Indietro </button>
+		</div>
+
+		
+	</body>
+</html>
