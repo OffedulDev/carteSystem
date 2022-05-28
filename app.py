@@ -23,7 +23,7 @@ def idxs():
     else:
         insertedPassword = request.form["text"]
 
-        if insertedPassword == "camfil91":
+        if insertedPassword == "xxxx":
             op = open("cards.txt")
             return 'Admin File Review: ' + op.read() + ' | Creato da Filippo Caminati | Copyright 2021'
         else:
